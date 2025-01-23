@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfdfccfa5a2424f9cfb3b1a3d899d0d, type: 3}
+  m_Name: Data-Hero3Skill-1586302678
+  m_EditorClassIdentifier: 
+  m_dbKey: 11109
+  title: Ice Shard
+  description: "B\u1EAFn x m\u0169i t\xEAn b\u0103ng h\xECnh qu\u1EA1t ra ph\xEDa
+    tr\u01B0\u1EDBc, g\xE2y s\xE1t th\u01B0\u01A1ng v\xE0 hi\u1EC7u \u1EE9ng T\xEA
+    c\xF3ng cho k\u1EBB \u0111\u1ECBch \u0111\u1EA7u ti\xEAn tr\xFAng k\u1EF9 n\u0103ng. "
+  bulletPrefab:
+    m_AssetGUID: 773edcc40da792b4fb509b42bab1419d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  bulletCount: 5
+  bulletAngle: 18
+  bonusDamage: 80
+  projectileSpeed: 60

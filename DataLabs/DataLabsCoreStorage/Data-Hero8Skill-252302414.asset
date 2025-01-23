@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf855b98cdb74cb6b341a661952f8515, type: 3}
+  m_Name: Data-Hero8Skill-252302414
+  m_EditorClassIdentifier: 
+  m_dbKey: 11113
+  title: Assassinate
+  description: "D\u1ECBch chuy\u1EC3n ra sau l\u01B0ng m\u1EE5c ti\xEAu g\u1EA7n
+    nh\u1EA5t trong X \u0111\u01A1n v\u1ECB kho\u1EA3ng c\xE1ch. G\xE2y s\xE1t th\u01B0\u01A1ng
+    b\u1EB1ng 120% ATK l\xEAn 1 v\xF9ng nh\u1ECF tr\u01B0\u1EDBc m\u1EB7t . S\xE1t
+    th\u01B0\u01A1ng \u0111\u01B0\u1EE3c coi nh\u01B0 1 \u0111\xF2n \u0111\xE1nh
+    th\u01B0\u1EDDng\nN\u1EBFu m\u1EE5c ti\xEAu kh\xF4ng n\u1EB1m trong kho\u1EA3ng
+    c\xE1ch, chi\xEAu th\u1EE9c b\u1ECB x\xE1m \u0111i v\xE0 kh\xF4ng th\u1EC3 k\xEDch
+    ho\u1EA1t.\nK\u1EF9 n\u0103ng l\xE0 d\u1ECBch chuy\u1EC3n \u0111\u1EBFn m\u1EE5c
+    ti\xEAu"
+  bonusDamage: 120
+  maxTeleRange: 200

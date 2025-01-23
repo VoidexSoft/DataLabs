@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d96dfa41934792b3fab1cccae56663, type: 3}
+  m_Name: Data-FinalFlame34-693126484
+  m_EditorClassIdentifier: 
+  m_dbKey: 59
+  title: '#34 FinalFlame'
+  description: 
+  boonTypeTag: 5
+  boonTierTag: 5
+  maxLevel: 1
+  canShowAngleRoom: 0
+  canShowNormalRoom: 1
+  localizedTitle:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_title_34
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_des_34
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  rate: 50
+  worldUnlock: 0
+  elementalTag: 1
+  icon: {fileID: 21300000, guid: f4df15fcfdd66ac4ea371deb7c6e4704, type: 3}
+  background: {fileID: 21300000, guid: d70bd09fe61570642bdd0795c28d7bed, type: 3}
+  cover: {fileID: 21300000, guid: 80866a954a4cc56469c9bc6ab79a1678, type: 3}
+  typeTagRequip: 0
+  quantityTypeTagRequip: 0
+  elementalTagRequip1: 0
+  quatityElementalTagRequip1: 0
+  elementalTagRequip2: 0
+  quatityElementalTagRequip2: 0
+  tierTagRequip: 1
+  quantityTierTagRequip: 1
+  idRequip: 0
+  quantityIdRequip: 0
+  damageIntervalTimeIncrease: 100
+  enemyHealthThreshold: 50
+  references:
+    version: 2
+    RefIds: []

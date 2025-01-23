@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17a1a6745af425ca6e91c44ad16a98a, type: 3}
+  m_Name: BoonsSheetsProfile
+  m_EditorClassIdentifier: 
+  m_profiles:
+  - ProfileName: Attribute Boons Config
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.AttributeBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - AttributeBoon
+  - ProfileName: '#18DealIncreaseDamageOnHeroHitBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DealIncreaseDamageOnHeroHitBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#18DealIncreaseDamageOnHeroHitBoon'
+  - ProfileName: '#27FireStrikeBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FireStrikeBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#27FireStrikeBoon'
+  - ProfileName: '#14FirstAidBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FirstAidBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#14FirstAidBoon'
+  - ProfileName: '#13FirstStrikeBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FirstStrikeBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#13FirstStrikeBoon'
+  - ProfileName: '#8HealthBasedMaxHealthBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.HealBasedMaxHealthBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#8HealthBasedMaxHealthBoon'
+  - ProfileName: '#16HitMarkBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.HitMarkBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#16HitMarkBoon'
+  - ProfileName: '#24IceStrikeBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.IceStrikeBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#24IceStrikeBoon'
+  - ProfileName: '#26LightningStrikeBoon'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.LightningStrikeBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#26LightningStrikeBoon'
+  - ProfileName: '#17StrongOnHighHealth'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.StrongerOnHighHealth, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#17StrongOnHighHealth'
+  - ProfileName: '#15StrongOnLowHealth'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.StrongerOnLowHealth, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#15StrongOnLowHealth'
+  - ProfileName: '#19Tempest'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.TempestBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#19Tempest'
+  - ProfileName: '#28XPIncrease'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.XPIncreaseBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#28XPIncrease'
+  - ProfileName: '#29FireSpirit'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FireSpirit29, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#29FireSpirit'
+  - ProfileName: '#60ShockingThunder'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.ShockingThunder60, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#60ShockingThunder'
+  - ProfileName: '#73HolyShield'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.HolyShield73, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#73HolyShield'
+  - ProfileName: '#72Runaway'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.Runaway72, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#72Runaway'
+  - ProfileName: '#71TreasureHunter'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.TreasureHunter71, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#71TreasureHunter'
+  - ProfileName: '#69Crafter'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.Crafter69, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#69Crafter'
+  - ProfileName: '#68DemonContract'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.DemonContract68, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#68DemonContract'
+  - ProfileName: '#67DoubleDash'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.DoubleDash67, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#67DoubleDash'
+  - ProfileName: '#66ColdLightningDuo'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.ColdLightningDuo66, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#66ColdLightningDuo'
+  - ProfileName: '#65PoisonLightningDuo'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.PoisonLightningDuo65, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#65PoisonLightningDuo'
+  - ProfileName: '#64PoisonColdDuo'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.PoisonColdDuo64, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#64PoisonColdDuo'
+  - ProfileName: '#63FireColdDuo'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.FireColdDuo63, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#63FireColdDuo'
+  - ProfileName: '#62FireLightningDuo'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.FireLightningDuo62, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#62FireLightningDuo'
+  - ProfileName: '#61PoisonFireDuo'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Tier4.PoisonFireDuo61, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#61PoisonFireDuo'
+  - ProfileName: '#59ElectricGuides'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.ElectricGuides59, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#59ElectricGuides'
+  - ProfileName: '#58DoubleThunder'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DoubleThunder58, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#58DoubleThunder'
+  - ProfileName: '#57ThunderStrike'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.ThunderStrike57, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#57ThunderStrike'
+  - ProfileName: '#56LightningSpeed'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.LightningSpeed56, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#56LightningSpeed'
+  - ProfileName: '#55LightningReflex'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.LightningReflex55, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#55LightningReflex'
+  - ProfileName: '#54Overcharge'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Overcharge54, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#54Overcharge'
+  - ProfileName: '#52AddDosage'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.AddDosage52, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#52AddDosage'
+  - ProfileName: '#53PoisonReflex'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonReflex53, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#53PoisonReflex'
+  - ProfileName: '#51HighTolerance'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.HighTolerance51, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#51HighTolerance'
+  - ProfileName: '#50Overdose'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.Overdose50, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#50Overdose'
+  - ProfileName: '#49PoisonLast'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonLast49, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#49PoisonLast'
+  - ProfileName: '#48PoisonExplosion'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonExplosion48, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#48PoisonExplosion'
+  - ProfileName: '#47PoisonShock'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonShock47, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#47PoisonShock'
+  - ProfileName: '#46FrozenArmor'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FrozenArmor46, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#46FrozenArmor'
+  - ProfileName: '#45SnowStorm'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.SnowStorm45, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#45SnowStorm'
+  - ProfileName: '#44FrozenTouch'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FrozenTouch44, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#44FrozenTouch'
+  - ProfileName: '#43DeepFreeze'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DeepFreeze43, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#43DeepFreeze'
+  - ProfileName: '#42IntenalWinter'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.InternalWinter42, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#42IntenalWinter'
+  - ProfileName: '#41ChillWeaken'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.ChillWeaken41, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#41ChillWeaken'
+  - ProfileName: '#40FrostBite'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FrostBite40, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#40FrostBite'
+  - ProfileName: '#39FireTechnique'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FireTechnique39, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#39FireTechnique'
+  - ProfileName: '#38SolarGenesis'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.SolarGenesis38, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#38SolarGenesis'
+  - ProfileName: '#37FlammableCoating'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FlammableCoating37, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#37FlammableCoating'
+  - ProfileName: '#36BurningUp'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.BurningUp36, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#36BurningUp'
+  - ProfileName: '#35FireHarvest'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FireHarvest35, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#35FireHarvest'
+  - ProfileName: '#34FinalFlame'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FinalFlame34, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#34FinalFlame'
+  - ProfileName: '#30IceSpirit'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.IceSpirit30, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#30IceSpirit'
+  - ProfileName: '#33FireExplode'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FireExplode33, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#33FireExplode'
+  - ProfileName: '#32PoisonSpirit'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonSpirit32, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#32PoisonSpirit'
+  - ProfileName: '#31LightningSpirit'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.LightningSpirit31, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#31LightningSpirit'
+  - ProfileName: '#20FireDash'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.FireDashBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#20FireDash'
+  - ProfileName: '#21LightningDash'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.LightningDashBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#21LightningDash'
+  - ProfileName: '#22ColdDash'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.ColdDashBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#22ColdDash'
+  - ProfileName: '#1DamageIncrement'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DamageIncrementBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#1DamageIncrementBoon'
+  - ProfileName: '#5DamageIncrementSmall'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DamageIncrementSmallBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#5DamageIncrementSmallBoon'
+  - ProfileName: '#25PoisonStrike'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonStrikeBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#25PoisonStrike'
+  - ProfileName: '#23PoisonDash'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.PoisonDashBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#23PoisonDash'
+  - ProfileName: '#4DamageHPIncrease'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DamageHPIncrementBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#4DamageHPIncreaseBoon'
+  - ProfileName: '#10HPIncrease'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.HPIncrementBoon10, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#10HPIncreaseBoon'
+  - ProfileName: '#12DefenseIncrease'
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Agent.Boon.DefenseIncreaseBoon, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Voidex.DataLabs/DataLabs/DataLabsCoreStorage
+    WorksheetNames:
+    - '#12DefenseIncreaseBoon'
+  - ProfileName: Boon Attribute Modifier Preset
+    SheetID: 1N7oKMRIZXj-OtlMIxauryRdieF6-exNNTWvULI1wfjU
+    AssetType: Voidex.Attributes.BoonAttributeModifierPreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - AttributePreset
+  m_nextProfileIndex: 6

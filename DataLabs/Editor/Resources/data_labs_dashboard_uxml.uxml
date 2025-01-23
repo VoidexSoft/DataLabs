@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Template name="dashboard_content" src="project://database/Assets/Voidex.DataLabs/DataLabs/Editor/Resources/dashboard_content.uxml?fileID=9197481963319205126&amp;guid=203a8cc16603e48e3b75b18f9f692ae7&amp;type=3#dashboard_content" />
+    <ui:Template name="settings_content" src="project://database/Assets/Voidex.DataLabs/DataLabs/Editor/Resources/settings_content.uxml?fileID=9197481963319205126&amp;guid=149b8ebf6cdfd45efb76baa229d38ce3&amp;type=3#settings_content" />
+    <ui:VisualElement name="ALL" style="flex-grow: 0; align-items: flex-start; flex-direction: column;">
+        <ui:VisualElement name="TABS" style="flex-direction: row;">
+            <ui:Button text="Dashboard" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DASHBOARD_TAB" class="tab" style="width: 80px; visibility: visible; overflow: hidden; display: flex; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SETTINGS_TAB" tabindex="1" class="tab" style="width: 80px; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TAB_CONTENTS" style="flex-grow: 1; align-self: auto; align-items: auto; flex-direction: column; flex-shrink: 1; flex-wrap: wrap; justify-content: space-between; height: auto; width: auto;">
+            <ui:Instance template="dashboard_content" name="dashboard_content" style="display: none; flex-direction: row; flex-grow: 1; align-items: stretch; justify-content: space-between; align-self: auto; flex-shrink: 1; flex-basis: auto; width: auto; height: auto;" />
+            <ui:Instance template="settings_content" name="settings_content" style="flex-direction: row; flex-grow: 1; flex-shrink: 1; flex-basis: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

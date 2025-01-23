@@ -1,0 +1,25 @@
+{
+    "name": "Voidex.DataLabs.Dashboard.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Voidex.DataLabs",
+        "Voidex.DataLabs.GoogleSheet.Runtime",
+        "UniTask",
+        "Unity.EditorCoroutines.Editor",
+        "Unity.Localization",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

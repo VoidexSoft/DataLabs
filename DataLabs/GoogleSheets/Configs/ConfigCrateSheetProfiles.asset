@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17a1a6745af425ca6e91c44ad16a98a, type: 3}
+  m_Name: ConfigCrateSheetProfiles
+  m_EditorClassIdentifier: 
+  m_profiles:
+  - ProfileName: UI
+    SheetID: 1gnlgd748-9cXkoylARrtYmOt5p1eBizbxB-m2g2-mpI
+    AssetType: Ondi.SwordRoguelite.Config.UIScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - ItemBackground
+  - ProfileName: SevenDay
+    SheetID: 19-9FkniBSBrj-GHLPg93vOrtUyn-2j6mKi2-RJPcPF0
+    AssetType: Ondi.SwordRoguelite.Config.SevenDayScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Chest
+  - ProfileName: HeroDamageConfig
+    SheetID: 1fDbgXSh6HQ93uNClBHPShJYK1pS3PbfIE0eR_0aqZ_8
+    AssetType: Ondi.SwordRoguelite.Config.HeroDamageConfig, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - HeroDamageConfig
+  - ProfileName: HeroCollection
+    SheetID: 1OvKg98U4r9blmv-2Vo7tW82FOyI0RT6yMmw9uCqqPf8
+    AssetType: Ondi.SwordRoguelite.Config.HeroCollection, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - HeroCollection
+  - ProfileName: WeeklyEvent
+    SheetID: 1QbDCkf42X6DGty6UqS6z64vNm55kUdxOv8YWNmKQRcM
+    AssetType: Ondi.SwordRoguelite.Config.WeeklyEventScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - WeeklyEvent
+    - PossibleReward
+    - AchievementReward
+  - ProfileName: MapConfig
+    SheetID: 128hn3WFteh7AhU8SznAGBtEF8euTUyE-JG7ch_Wn8K0
+    AssetType: Ondi.SwordRoguelite.Config.CampaignScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - RoomConfig
+    - CampaignConfig
+    - CostEnergy
+    - GachaWorld
+    - WorldReward
+    - FirstReward
+  - ProfileName: DungeonConfig
+    SheetID: 16pbFRRBK2AeCZb0vigJdcLy8k-m0hSh8ccQs8AKVC9A
+    AssetType: Ondi.SwordRoguelite.Config.DungeonScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - RoomConfig
+    - DungeonConfig
+    - GachaWorld
+    - StatEnemyDifficulty
+  - ProfileName: SkillRageConfig
+    SheetID: 1yYblE240auRND11zgSekszJlbnFjWcIpzlIJ6T1vWWU
+    AssetType: Ondi.SwordRoguelite.Config.SkillRageConfig, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - WeaponRage
+    - SkillRage
+  - ProfileName: ChainLightningConfig
+    SheetID: 11LubWYllojDLMOj6JBABpbsmYiE9B69oQzUd1gyyzK0
+    AssetType: Voidex.Agent.Status.ChainLightningConfig, ondi.sr.ability.runtime
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - ChainLightning
+  - ProfileName: AccountConfig
+    SheetID: 1usV5lHIPpl0qxwxTW48RLS0AW561YVpNzcMzvHjhE_U
+    AssetType: Ondi.SwordRoguelite.Config.AccountScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - AccountConfig
+    - AccountReward
+  - ProfileName: GachaConfig
+    SheetID: 1DGeOd9G77DYaBVJCmZKHdAzraeFQ0Sgkwur5Dkt1ShQ
+    AssetType: Ondi.SwordRoguelite.Config.GachaScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - GachaIngame
+    - BoxMenu
+    - BoxIngame
+    - BoxEquipmentRarity
+    - GachaMenu
+    - Cost
+    - SeasonEquipmentBaner
+    - PoolEquipmentGacha
+  - ProfileName: HeroUpgrade
+    SheetID: 1zqXtFr_-0cX1F8NeRGx2KEE-gv-fQaL8ksILDIE5_YM
+    AssetType: Ondi.SwordRoguelite.Config.HeroUpgradeConfig, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - BaseStat
+    - StatPerLevel
+    - Cost
+    - PromoteBonusStat
+    - Stars
+    - CostStarUp
+    - CostSkillTreeUp
+    - Passive
+    - SkillInfo
+  - ProfileName: MasteryConfig
+    SheetID: 1s4B3W1e5x0Hgx3u1ysvOa9smnDLO9X8LaZ0DwH_Q6iw
+    AssetType: Ondi.SwordRoguelite.Config.MasteryScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Mastery
+    - MasteryPoint
+    - Cost
+    - MasteryUpgrade
+  - ProfileName: ShopConfig
+    SheetID: 11DP4kocmfzDZDlAg0TmnF34uiyeWOpLqO0h1VF9Rx2w
+    AssetType: Ondi.SwordRoguelite.Config.ShopScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Gem
+    - Coin
+    - Bundle
+    - Offer
+    - MonthlyPack
+    - Common
+    - StarterPack
+    - FirstPurchase
+    - PremiumCards
+  - ProfileName: AdsConfig
+    SheetID: 16yvJfvWrIt7MIHq0SSt1TTt9K31xE9jai-Ph7uwsFt4
+    AssetType: Ondi.SwordRoguelite.Config.AdsScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Ads
+  - ProfileName: InAppProduct
+    SheetID: 1cG8DdTiuexqwe4DT1QG7UoHpEMMly127dyZ6KOIIrnY
+    AssetType: Ondi.IAP.OndiIAPSettings, Ondi.IAP
+    AssetDirectory: Assets/Resources
+    WorksheetNames:
+    - InGameConfig
+  - ProfileName: HeroIngame
+    SheetID: 1FtpLrfGqE_wPGjOzgsA3KIlFJPsnBfNeLU7q4Jl9UQM
+    AssetType: Ondi.SwordRoguelite.Config.HeroIngameScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - LevelHeroIngame
+  - ProfileName: Tutorial
+    SheetID: 1Gv_JLJzNr9CqGRE_sMI34l-GD4vdvPUxRINtqXS3k2A
+    AssetType: Ondi.SwordRoguelite.Config.TutorialContainer, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Tutorial
+  - ProfileName: Revive
+    SheetID: 1T8IQpIRCpTmkYGkJltdduem7dcbF0nYOzSfIimBtJyk
+    AssetType: Ondi.SwordRoguelite.Config.ReviveScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Revive
+    - CostRevive
+  - ProfileName: FeatureUnlock
+    SheetID: 1BrXCbG39aRlV1OPimaEGUjbV7lTxrUtV-xgZLPrmuMU
+    AssetType: Ondi.SwordRoguelite.Config.FeatureUnlockScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Feature
+    - Feature_Soft_Tutorial
+  - ProfileName: BattlePass
+    SheetID: 1KppuIjuu7EFX6Y2Eb_tnRJKZVfX2_gDZmmyUpnNnjZ0
+    AssetType: Ondi.SwordRoguelite.Config.BattlePassScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Level
+    - UnlockQuest
+    - Level2
+  - ProfileName: Quest
+    SheetID: 1GSBdp2AH5G0jWWEdYOmELzbI2Rky390gt3wdzQJavgQ
+    AssetType: Ondi.SwordRoguelite.Config.QuestScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - DailyQuest
+    - SeasonQuest
+    - SevenDay
+    - DailyQuest_Normal
+    - WeeklyQuest_Normal
+    - ChestMilestone_Daily_Normal
+    - ChestMilestone_Weekly_Normal
+  - ProfileName: RandomItem
+    SheetID: 1_KN72ZEHWz3YbSuuyNHVACHV-iaq_oAPSooWTpR80pc
+    AssetType: Ondi.SwordRoguelite.Config.RandomItemScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - RandomItem
+  - ProfileName: AccountPass
+    SheetID: 15BaMX7ZakB1tohV6Ur7a-5b7eyC2CDwMrq_p4vPKtzI
+    AssetType: Ondi.SwordRoguelite.Config.AccountPassScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Account_Pass
+  - ProfileName: DailyLogin
+    SheetID: 1mKzEcWM757Wz8__24AMOZQVAV7Zqc-N72sxf_gB9u2g
+    AssetType: Ondi.SwordRoguelite.Config.DailyLoginScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Weekly
+    - Monthly
+  - ProfileName: GameConfig
+    SheetID: 1_Kl0OLtGe5RhbHBjD7SpO9eO8lvSBrzjQQd60OJacuE
+    AssetType: Ondi.SwordRoguelite.Config.GameConfigScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Language
+    - EditController
+    - ValueConfig
+    - MapColor
+  - ProfileName: MegaAds
+    SheetID: 16yvJfvWrIt7MIHq0SSt1TTt9K31xE9jai-Ph7uwsFt4
+    AssetType: Ondi.SwordRoguelite.IAA.MegaAdsConfig, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - MegaAdsMilestone
+    - MegaAdsRandomReward
+    - MegaAdsRarityRate
+  - ProfileName: ActorIntroData
+    SheetID: 13HMhnHn55z0XE3XkCMjPlCEUHbWcusLIvoxmmvcdRHs
+    AssetType: Ondi.SwordRoguelite.Config.ActorInformationScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - Actors
+  - ProfileName: IdleChest
+    SheetID: 13qPknX02-oCjUFotoAndZ7jAy9BoZ3nmWoSxsdg5QK4
+    AssetType: Ondi.SwordRoguelite.IdleChest.IdleChestConfig, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - ResourceDrop
+    - ItemRandom
+    - ElementalShardRandom
+    - EquipmentShardRandom
+    - RandomItem
+  - ProfileName: Analytics Tracking Config
+    SheetID: 1_vFicp7CmE0tpiYF1pUQzZc1JamdK1j-zu5w86AiMos
+    AssetType: Ondi.SwordRoguelite.Config.AnalyticsScriptableObject, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - TrackingResources
+  m_nextProfileIndex: 24

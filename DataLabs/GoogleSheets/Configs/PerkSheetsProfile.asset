@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17a1a6745af425ca6e91c44ad16a98a, type: 3}
+  m_Name: PerkSheetsProfile
+  m_EditorClassIdentifier: 
+  m_profiles:
+  - ProfileName: PerkSword
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkSword, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Sword
+  - ProfileName: PerkDualDagger
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkDualDagger, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - DualDagger
+  - ProfileName: PerkHeavy
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkHeavy, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Heavy
+  - ProfileName: PerkSpear
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkSpear, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Spear
+  - ProfileName: PerkKatana
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkKatana, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Katana
+  - ProfileName: PerkKnuckle
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkKnuckle, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Knuckle
+  - ProfileName: PerkThrowing
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkThrowing, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Throwing
+  - ProfileName: Boon
+    SheetID: 1e3mKjMwyq_NqXFxY_g_Az0o2fwFOWlILtCztxVTawkw
+    AssetType: Voidex.Equipment.Perk.PerkBoon, ondi.sr.perk
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Boon
+  m_nextProfileIndex: 6

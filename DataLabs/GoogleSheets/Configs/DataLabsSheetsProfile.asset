@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17a1a6745af425ca6e91c44ad16a98a, type: 3}
+  m_Name: DataLabsSheetsProfile
+  m_EditorClassIdentifier: 
+  m_profiles:
+  - ProfileName: Hero0_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero0
+  - ProfileName: 1001_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1001
+  - ProfileName: 1002_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1002
+  - ProfileName: 1003_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1003
+  - ProfileName: 1004_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1004
+  - ProfileName: Attribute Configurator
+    SheetID: 1KpiTrfcJJxsVAT6mtqQYKBlIEH_lNAxMz6iqX-xOE5E
+    AssetType: Voidex.Attributes.Editor.AttributeConfigurator, Voidex.Attributes.Editor
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - AttributeType
+  - ProfileName: 1005_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1005
+  - ProfileName: 1101_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1101
+  - ProfileName: 1102_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1102
+  - ProfileName: 1103_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1103
+  - ProfileName: 1113_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1113
+  - ProfileName: 1104_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1104
+  - ProfileName: 1107_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1107
+  - ProfileName: 1108_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1108
+  - ProfileName: 1106_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1106
+  - ProfileName: 2101_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy2101
+  - ProfileName: 2105_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy2105
+  - ProfileName: 2102_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy2102
+  - ProfileName: 3004_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3004
+  - ProfileName: 3005_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3005
+  - ProfileName: 3006_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3006
+  - ProfileName: 3007_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3007
+  - ProfileName: 1000_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1000
+  - ProfileName: 1201_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1201
+  - ProfileName: 1205_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1205
+  - ProfileName: 1401_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1401
+  - ProfileName: 1402_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy1402
+  - ProfileName: 3003_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3003
+  - ProfileName: 3001_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3001
+  - ProfileName: 3002_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3002
+  - ProfileName: 2103_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy2103
+  - ProfileName: 3009_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3009
+  - ProfileName: 3010_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3010
+  - ProfileName: 3011_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3011
+  - ProfileName: 3012_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3012
+  - ProfileName: 3013_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3013
+  - ProfileName: 3014_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3014
+  - ProfileName: 3015_Attribute_Preset
+    SheetID: 12ndQeFzs5VD8oprJB0Ggo-DEQ4UoOZ7T2l512iwKhw4
+    AssetType: Voidex.Attributes.AttributePreset, Voidex.Attributes
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Enemy3015
+  - ProfileName: StatusPresets
+    SheetID: 11LubWYllojDLMOj6JBABpbsmYiE9B69oQzUd1gyyzK0
+    AssetType: StatusEffects.StatusEffectDataLoader, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Status
+  - ProfileName: Hero1ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero1Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero1
+  - ProfileName: Hero2ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero2Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero2
+  - ProfileName: Hero3ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero3Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero3
+  - ProfileName: Hero4ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero4Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero4
+  - ProfileName: Hero5ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero5Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero5
+  - ProfileName: Hero6ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero06Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero6
+  - ProfileName: Hero7ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero7Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero7
+  - ProfileName: Hero8ActiveSkillConfig
+    SheetID: 1EzgT3PjY9k4I19xST_s5BcebLQSHXLNAovEl4FCC5lY
+    AssetType: Voidex.Agent.Ability.ActiveSkills.Hero8Skill, ondi.sr.ability.runtime
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - Hero8
+  - ProfileName: AttributeConfigurator
+    SheetID: 1KpiTrfcJJxsVAT6mtqQYKBlIEH_lNAxMz6iqX-xOE5E
+    AssetType: Voidex.Attributes.Editor.AttributeConfigurator, Voidex.Attributes.Editor
+    AssetDirectory: Assets/Data
+    WorksheetNames:
+    - AttributeType
+  m_nextProfileIndex: 17

@@ -1,0 +1,9 @@
+{
+  "name": "com.voidex.datalabs",
+  "displayName": "DataLabs",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "dependencies": {
+  },
+  "type": "tool"
+}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38c5c69367b4373b5b635381b8622b8, type: 3}
+  m_Name: Data-AttributeBoon-1125305850
+  m_EditorClassIdentifier: 
+  m_dbKey: 99
+  title: '#70Hoarder'
+  description: 
+  boonTypeTag: 1
+  boonTierTag: 0
+  maxLevel: 1
+  canShowAngleRoom: 0
+  canShowNormalRoom: 1
+  localizedTitle:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_title_70
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_des_70
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  rate: 50
+  worldUnlock: 3
+  elementalTag: 0
+  icon: {fileID: 21300000, guid: 346ffd2929961054e83b6c9f1dc2d8c8, type: 3}
+  background: {fileID: 21300000, guid: d70bd09fe61570642bdd0795c28d7bed, type: 3}
+  cover: {fileID: 21300000, guid: 97de36238b53fe347926c0f383c268ed, type: 3}
+  typeTagRequip: 0
+  quantityTypeTagRequip: 0
+  elementalTagRequip1: 0
+  quatityElementalTagRequip1: 0
+  elementalTagRequip2: 0
+  quatityElementalTagRequip2: 0
+  tierTagRequip: 0
+  quantityTierTagRequip: 0
+  idRequip: 0
+  quantityIdRequip: 0
+  attributeModifierPreset: {fileID: 11400000, guid: d785dae13b114294982192f8dd5c761e, type: 2}
+  modifierPresetDbKey: 8019
+  references:
+    version: 2
+    RefIds: []

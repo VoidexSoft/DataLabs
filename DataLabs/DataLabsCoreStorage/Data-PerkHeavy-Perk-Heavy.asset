@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51d049c76bb4c6484e96bc04ef11a48, type: 3}
+  m_Name: Data-PerkHeavy-Perk-Heavy
+  m_EditorClassIdentifier: 
+  m_dbKey: 8002
+  title: Heavy
+  description: Heavy
+  localized:
+    m_TableReference:
+      m_TableCollectionName: item
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: perk_heavy
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  icon: {fileID: 21300000, guid: fc9293ddd4cc36641a23ce546a01dd71, type: 3}
+  bonusAttack: 0
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,14 @@
+{
+    "name": "Voidex.DataLabs",
+    "rootNamespace": "",
+    "references": ["GUID:6e82559fe1664f98865810daac6ad7fd"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,55 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="settings_content" style="flex-grow: 1;">
+        <ui:VisualElement name="Separator" style="margin-top: 8px; max-height: 1px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 2px; border-left-color: rgb(47, 47, 47); border-right-color: rgb(47, 47, 47); border-top-color: rgb(47, 47, 47); border-bottom-color: rgb(47, 47, 47); margin-bottom: 8px; overflow: hidden; flex-grow: 1;" />
+        <ui:VisualElement name="TopSection" style="min-width: auto; overflow: hidden; align-items: stretch; flex-grow: 0; flex-shrink: 0;">
+            <ui:VisualElement name="Credentials" style="align-items: stretch; min-width: auto; min-height: auto; flex-direction: row; margin-left: 3px; margin-right: 3px; margin-top: 1px; flex-grow: 0; overflow: hidden;">
+                <ui:Label text="P12 File Path" display-tooltip-when-elided="true" style="flex-direction: column; justify-content: flex-start; max-width: none; align-items: flex-start; min-height: auto; padding-top: 2px; min-width: 150px; margin-right: 2px;" />
+                <ui:VisualElement name="FieldGroup" style="overflow: hidden; flex-shrink: 1; align-items: stretch; flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" value="../Credentials/sword-rouge-lite-146ae82c7d8a.p12" text="../tools/potato-sheets/credentials.json" name="P12FilePath" style="align-items: center; flex-direction: row; margin-left: 0; margin-right: 0; padding-left: 2px; padding-right: 2px; padding-top: 1px; margin-top: 0; margin-bottom: 0;" />
+                    <ui:Label text="Make sure that the &lt;b&gt;P12 File Path&lt;/b&gt; files are not committed to your repository for your own security!" display-tooltip-when-elided="true" name="CredentialsWarning" style="border-left-color: rgb(154, 94, 0); border-right-color: rgb(154, 94, 0); border-top-color: rgb(154, 94, 0); border-bottom-color: rgb(154, 94, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; background-color: rgb(82, 60, 25); -unity-text-align: middle-left; flex-wrap: nowrap; margin-left: 3px; white-space: normal; margin-top: 3px; margin-bottom: 0; overflow: hidden; min-width: 100px; min-height: auto; max-height: 100px; margin-right: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Separator" style="margin-top: 8px; max-height: 1px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 2px; border-left-color: rgb(47, 47, 47); border-right-color: rgb(47, 47, 47); border-top-color: rgb(47, 47, 47); border-bottom-color: rgb(47, 47, 47); margin-bottom: 8px; overflow: hidden; flex-grow: 1;" />
+            <uie:ObjectField label="Profile" type="Voidex.DataLabs.GoogleSheets.Editor.DataLabsSheetsProfile, Voidex.DataLabs.GoogleSheet.Runtime" name="Profile" style="margin-bottom: 1px;">
+                <ui:Button text="Create New" display-tooltip-when-elided="true" name="ProfileCreateNewButton" style="margin-left: 2px; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            </uie:ObjectField>
+            <ui:ProgressBar value="0.5" title="my-progress" name="ProgressBar" high-value="1" style="margin-top: 8px; display: none;" />
+            <ui:VisualElement name="OAuthWaitMessage" style="flex-direction: row; align-items: center; margin-left: 4px; margin-right: 3px; margin-top: 8px; margin-bottom: 0; border-left-color: rgb(88, 88, 88); border-right-color: rgb(88, 88, 88); border-top-color: rgb(88, 88, 88); border-bottom-color: rgb(88, 88, 88); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; display: flex;">
+                <ui:Label text="Waiting for response from Google OAuth. Complete the permissions flow in your browser to continue... " display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: flex-start; flex-wrap: nowrap; white-space: normal; flex-grow: 1; flex-shrink: 1; margin-right: 8px; overflow: hidden;" />
+                <ui:Button text="Cancel" display-tooltip-when-elided="true" name="OAuthWaitCancelButton" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-bottom: 1px; display: flex;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Separator" style="margin-top: 8px; max-height: 1px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 2px; border-left-color: rgb(47, 47, 47); border-right-color: rgb(47, 47, 47); border-top-color: rgb(47, 47, 47); border-bottom-color: rgb(47, 47, 47); margin-bottom: 8px; overflow: hidden; flex-grow: 1;" />
+        <ui:VisualElement name="ProfileGroup" style="flex-direction: row; min-height: auto; min-width: auto; flex-grow: 1; overflow: hidden; align-items: stretch; justify-content: space-between; align-self: auto; flex-shrink: 1;">
+            <ui:VisualElement name="ProfileListGroup" style="overflow: hidden; flex-grow: 0; min-height: auto; min-width: auto; max-width: none; width: auto; justify-content: flex-start; flex-basis: auto;">
+                <ui:VisualElement style="flex-direction: row; padding-right: 4px; padding-bottom: 2px;">
+                    <ui:Label text="Profile List" display-tooltip-when-elided="true" style="flex-grow: 1; flex-shrink: 1; justify-content: flex-start; -unity-text-align: middle-left; -unity-font-style: bold; margin-left: 4px;" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="AddButton" style="margin-left: 0; margin-right: 3px; margin-top: 0; margin-bottom: 0; -unity-font-style: bold; padding-right: 5px; padding-top: 0; padding-left: 6px;" />
+                    <ui:Button text="-" display-tooltip-when-elided="true" name="RemoveButton" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-font-style: bold; padding-top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ProfileListContainer" style="min-width: auto; margin-left: 4px; margin-right: 4px; margin-top: 1px; margin-bottom: 2px; flex-grow: 1; border-left-color: rgb(33, 33, 33); border-right-color: rgb(33, 33, 33); border-top-color: rgb(13, 13, 13); border-bottom-color: rgb(40, 40, 40); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; background-color: rgb(42, 42, 42); overflow: hidden; min-height: auto;">
+                    <ui:ScrollView name="ProfileList" nested-interaction-kind="Default" focusable="true" style="flex-grow: 1; background-color: rgb(42, 42, 42); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; color: rgb(210, 210, 210); min-width: auto; width: 204px;" />
+                </ui:VisualElement>
+                <ui:Button text="Import All" display-tooltip-when-elided="true" name="ImportAllButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Separator" style="margin-top: 0; max-height: none; border-left-width: 0; border-right-width: 2px; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(47, 47, 47); border-right-color: rgb(47, 47, 47); border-top-color: rgb(47, 47, 47); border-bottom-color: rgb(47, 47, 47); margin-bottom: 0; overflow: hidden; flex-grow: 0; flex-direction: column; margin-right: 8px; margin-left: 8px; max-width: 1px; flex-shrink: 1;" />
+            <ui:VisualElement name="ProfileSettingsGroup" style="flex-grow: 1; margin-left: 3px; margin-right: 3px; margin-top: 1px; overflow: hidden; display: flex; width: auto; align-self: auto; justify-content: flex-start; align-items: stretch;">
+                <ui:Label text="Profile Settings" display-tooltip-when-elided="true" style="-unity-font-style: bold; padding-top: 0; margin-right: 3px; margin-left: 3px; margin-top: 1px; padding-left: 0; padding-right: 0;" />
+                <ui:TextField picking-mode="Ignore" label="Profile Name" value="Your Profile Name" text="Profile Name" name="ProfileName" />
+                <ui:TextField picking-mode="Ignore" label="Sheet ID" value="1oEo9HItBWbVYGSvQ4HfJLsu0efQz6dWuFMOIXXErKXk" text="adlf932lc90bm2w34" name="SheetID">
+                    <ui:Button text="Open in Browser" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OpenGoogleSheet" />
+                </ui:TextField>
+                <ui:VisualElement name="WorkSheetNames" style="flex-grow: 0; flex-shrink: 0; flex-direction: row; margin-top: 1px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px;">
+                    <ui:Foldout text="Worksheet Names" name="WorksheetNamesFoldout">
+                        <ui:TextField picking-mode="Ignore" name="WorksheetName" style="width: 423px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                    </ui:Foldout>
+                    <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddWorksheetButton" style="-unity-font-style: bold; font-size: 14px; flex-shrink: 0; margin-right: 3px; width: auto; height: 20px;" />
+                </ui:VisualElement>
+                <ui:DropdownField label="Asset Type" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="AssetType" />
+                <ui:TextField picking-mode="Ignore" label="Asset Directory" value="Assets" text="Assets/Data/" name="AssetDirectory" />
+                <ui:Button text="Import" display-tooltip-when-elided="true" name="ImportButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Separator" style="margin-top: 8px; max-height: 1px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 2px; border-left-color: rgb(47, 47, 47); border-right-color: rgb(47, 47, 47); border-top-color: rgb(47, 47, 47); border-bottom-color: rgb(47, 47, 47); margin-bottom: 8px; overflow: hidden; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

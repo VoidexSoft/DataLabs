@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17a1a6745af425ca6e91c44ad16a98a, type: 3}
+  m_Name: EnemyConfigCrateSheetProfiles
+  m_EditorClassIdentifier: 
+  m_profiles:
+  - ProfileName: Enemy 1000 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1000Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1000
+  - ProfileName: Enemy 1001 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1001Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1001
+  - ProfileName: Enemy 1002 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1002Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1002
+  - ProfileName: Enemy 1004 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1004Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1004
+  - ProfileName: Enemy 1005 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1005Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1005
+  - ProfileName: Enemy 1101 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1101Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1101
+  - ProfileName: Enemy 1102 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1102Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1102
+  - ProfileName: Enemy 1103 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1103Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1103
+  - ProfileName: Enemy 1104 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1104Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1104
+  - ProfileName: Enemy 1501 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1501Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1501
+  - ProfileName: Enemy 1105 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1105Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1105
+  - ProfileName: Enemy 1107 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1107Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1107
+  - ProfileName: Enemy 3004 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3004Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3004
+  - ProfileName: Enemy 3005 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3005Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3005
+  - ProfileName: Enemy 3006 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3006Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3006
+  - ProfileName: Enemy 3007 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3007Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3007
+  - ProfileName: Enemy 1201 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1201Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1201
+  - ProfileName: Enemy 1205 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1205Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1205
+  - ProfileName: Enemy 1401 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy1401Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_1401
+  - ProfileName: Enemy 3001 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3001Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3001
+  - ProfileName: Enemy 3002 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3002Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3002
+  - ProfileName: Enemy 3003 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3003Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3003
+  - ProfileName: Enemy 2103 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy2103Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_2103
+  - ProfileName: Enemy 2101 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy2101Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_2101
+  - ProfileName: Enemy 2105 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy2105Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_2105
+  - ProfileName: Enemy 3009 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3009Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3009
+  - ProfileName: Enemy 3013 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3013Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3013
+  - ProfileName: Enemy 3014 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3014Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3014
+  - ProfileName: Enemy 3015 Config
+    SheetID: 14xzDHb2JjReRrI-OXyv-Lm55fb5_JYbFV7uFyEkyWUg
+    AssetType: Ondi.SwordRoguelite.Config.Enemy3015Config, ondi.sr.config
+    AssetDirectory: Assets/_Assets/Addressables/Data
+    WorksheetNames:
+    - enemy_3015
+  m_nextProfileIndex: 21

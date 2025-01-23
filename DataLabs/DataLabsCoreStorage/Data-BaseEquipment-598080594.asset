@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74359aaf99d04d17a26cee24c556a8ef, type: 3}
+  m_Name: Data-BaseEquipment-598080594
+  m_EditorClassIdentifier: 
+  m_dbKey: 41008
+  title: armor_dodge
+  description: 
+  rarity: 0
+  tier: 0
+  icon: {fileID: 21300000, guid: 1b605ce4efd3905d8b621544e1c932a1, type: 3}
+  iconUi: {fileID: 21300000, guid: 1b605ce4efd3905d8b621544e1c932a1, type: 3}
+  restriction: {fileID: 0}
+  equipmentType: 1
+  dropOnlyIfYouOwn: 0
+  localizedName:
+    m_TableReference:
+      m_TableCollectionName: item
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: armor_dodge
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: item
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: desc_armor_dodge
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  maxStackSize: 1
+  value: 1
+  extraInteractions: []
+  weaponType: -1
+  MainAttribute: {fileID: 11400000, guid: 3b83b04d5f54707438ad346ecc8ca41a, type: 2}
+  attributeModifierPresets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 54dbf86e2dc95314f93bbf98630ef6ed, type: 2}
+  - {fileID: 11400000, guid: 60be6e9b7d3229e4f91f037f962c61ab, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: de9d97a6a53b9924581ae4faa2f00259, type: 2}
+  perks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rarityAffixesPresets:
+  - rarity: 0
+    modifierPreset: -1
+    passivePreset: -1
+    perkPreset: -1
+  - rarity: 1
+    modifierPreset: -1
+    passivePreset: -1
+    perkPreset: -1
+  - rarity: 2
+    modifierPreset: 719
+    passivePreset: -1
+    perkPreset: -1
+  - rarity: 3
+    modifierPreset: 708
+    passivePreset: -1
+    perkPreset: -1
+  - rarity: 4
+    modifierPreset: -1
+    passivePreset: 41008
+    perkPreset: -1
+  - rarity: 5
+    modifierPreset: 721
+    passivePreset: -1
+    perkPreset: -1
+  is_localize_perk: 0
+  attributeModifierPresetDbKeys: ffffffffffffffffcf020000c4020000ffffffffd1020000
+  perkDbKeys: 000000000000000000000000000000000000000000000000
+  passivePresetDbKey: ffffffffffffffffffffffffffffffff30a00000ffffffff
+  main_attribute: 701
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd953208f3a4cd1a78154c073197922, type: 3}
+  m_Name: Data-FireDashBoon-1100643453
+  m_EditorClassIdentifier: 
+  m_dbKey: 44
+  title: '#20  FireDash'
+  description: 
+  boonTypeTag: 2
+  boonTierTag: 1
+  maxLevel: 1
+  canShowAngleRoom: 0
+  canShowNormalRoom: 1
+  localizedTitle:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_title_20
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_des_20
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  rate: 100
+  worldUnlock: 0
+  elementalTag: 1
+  icon: {fileID: 21300000, guid: 70f02bcdf51492942963db822835372d, type: 3}
+  background: {fileID: 21300000, guid: d70bd09fe61570642bdd0795c28d7bed, type: 3}
+  cover: {fileID: 21300000, guid: 80866a954a4cc56469c9bc6ab79a1678, type: 3}
+  typeTagRequip: 0
+  quantityTypeTagRequip: 0
+  elementalTagRequip1: 0
+  quatityElementalTagRequip1: 0
+  elementalTagRequip2: 0
+  quatityElementalTagRequip2: 0
+  tierTagRequip: 0
+  quantityTierTagRequip: 0
+  idRequip: 0
+  quantityIdRequip: 0
+  bonusDamage: 5
+  references:
+    version: 2
+    RefIds: []

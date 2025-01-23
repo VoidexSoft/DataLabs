@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-374537544705421460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780820c511935244e94da41a53692797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: 27a21efae83f4e5498cd112030bc2848
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589661282d7118c489bb59ad58a7640d, type: 3}
+  m_Name: Data-StatusEffectData-821078743
+  m_EditorClassIdentifier: 
+  m_dbKey: 144518
+  title: SlowStatus
+  description: "Khi l\u01B0\u1EDBt k\u1EBFt th\xFAc, t\u1EA1o ra m\u1ED9t v\u1EE5
+    n\u1ED5 ra xung quanh nh\xE2n v\u1EADt b\u1EB1ng x% attack damage, nh\u1EADn
+    hi\u1EC7u \u1EE9ng Cold.\nHi\u1EC7u \u1EE9ng Cold l\xE0m ch\u1EADm t\u1ED1c \u0111\u1ED9
+    di chuy\u1EC3n v\xE0 \u0111\xF2n \u0111\xE1nh c\u1EE7a m\u1EE5c ti\xEAu \u0111i
+    15% trong 5 gi\xE2y. Khi ng\u01B0\u1EDDi ch\u01A1i ti\u1EBFp t\u1EE5c t\u1EA5n
+    c\xF4ng l\xEAn m\u1EE5c ti\xEAu \u0111ang b\u1ECB Cold s\u1EBD reset l\u1EA1i
+    th\u1EDDi gian \u0111\u1EBFm."
+  group:
+    group: 2
+  statusIdentifier: 1
+  baseValue: 15
+  duration: 8
+  icon: {fileID: 0}
+  allowEffectStacking: 0
+  stackingBehaviour: 0
+  nonStackingBehaviour: 5
+  maxStack: -1
+  effects: []
+  conditions: []
+  modules:
+  - module: {fileID: 11400000, guid: 96f9fd0029c394f5181251573771a5fd, type: 2}
+    moduleInstance: {fileID: 0}
+  - module: {fileID: 11400000, guid: 613a939dbb4185a4b9ee15ed9aca0369, type: 2}
+    moduleInstance: {fileID: 0}
+  interval: 0
+--- !u!114 &6307106591356013201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce03427ba0d59234d8f769758de73022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intervalSeconds: 0.25

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217338294c6a4c76a7ff88054f061e5f, type: 3}
+  m_Name: Data-DemonContract68-955813789
+  m_EditorClassIdentifier: 
+  m_dbKey: 97
+  title: '#68DemonContract'
+  description: 
+  boonTypeTag: 1
+  boonTierTag: 0
+  maxLevel: 1
+  canShowAngleRoom: 0
+  canShowNormalRoom: 1
+  localizedTitle:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_title_68
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_des_68
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  rate: 50
+  worldUnlock: 3
+  elementalTag: 5
+  icon: {fileID: 21300000, guid: dd36898ebdf6a034fb87e281b82e61a0, type: 3}
+  background: {fileID: 21300000, guid: d70bd09fe61570642bdd0795c28d7bed, type: 3}
+  cover: {fileID: 21300000, guid: 97de36238b53fe347926c0f383c268ed, type: 3}
+  typeTagRequip: 0
+  quantityTypeTagRequip: 0
+  elementalTagRequip1: 0
+  quatityElementalTagRequip1: 0
+  elementalTagRequip2: 0
+  quatityElementalTagRequip2: 0
+  tierTagRequip: 0
+  quantityTierTagRequip: 0
+  idRequip: 0
+  quantityIdRequip: 0
+  damageIncrease: 30
+  defenseDecrease: 50
+  references:
+    version: 2
+    RefIds: []

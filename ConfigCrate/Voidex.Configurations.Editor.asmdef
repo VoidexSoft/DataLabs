@@ -1,0 +1,19 @@
+{
+    "name": "Voidex.Configurations.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6e82559fe1664f98865810daac6ad7fd",
+        "GUID:ea63e7c7fe820b84daa6457928babdf8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

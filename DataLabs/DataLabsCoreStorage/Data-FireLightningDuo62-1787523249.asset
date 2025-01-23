@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede64b101c2b477ea2013c7ac5c985d2, type: 3}
+  m_Name: Data-FireLightningDuo62-1787523249
+  m_EditorClassIdentifier: 
+  m_dbKey: 91
+  title: '#62FireLightningDuo'
+  description: 
+  boonTypeTag: 7
+  boonTierTag: 13
+  maxLevel: 1
+  canShowAngleRoom: 0
+  canShowNormalRoom: 1
+  localizedTitle:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_title_62
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: boon
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: boon_des_62
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  rate: 80
+  worldUnlock: 0
+  elementalTag: 5
+  icon: {fileID: 21300000, guid: d1c3297c70216064fb6a0ca726b0b88b, type: 3}
+  background: {fileID: 21300000, guid: d70bd09fe61570642bdd0795c28d7bed, type: 3}
+  cover: {fileID: 21300000, guid: 7ad5d3fbc4a616346a3aaa84903c1084, type: 3}
+  typeTagRequip: 0
+  quantityTypeTagRequip: 0
+  elementalTagRequip1: 1
+  quatityElementalTagRequip1: 3
+  elementalTagRequip2: 2
+  quatityElementalTagRequip2: 3
+  tierTagRequip: 0
+  quantityTierTagRequip: 0
+  idRequip: 0
+  quantityIdRequip: 0
+  burnChance: 50
+  references:
+    version: 2
+    RefIds: []
